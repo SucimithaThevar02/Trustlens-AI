@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About - TrustLens AI</title>
+
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+        min-height: 100vh;
+        background: #eef5ff;
+        color: #172554;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    header {
+        min-height: 72px;
+        padding: 12px 7%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        background: #ffffff;
+
+        border-bottom: 1px solid #dbeafe;
+
+        box-shadow: 0 2px 12px rgba(30, 64, 175, 0.08);
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        font-size: 21px;
+        font-weight: 700;
+
+        color: #172554;
+    }
+
+    .logo-icon {
+        width: 40px;
+        height: 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 11px;
+
+        background: #2563eb;
+
+        color: white;
+
+        font-size: 20px;
+    }
+
+    .logo span {
+        color: #2563eb;
+    }
+
+    nav {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    nav a {
+        color: #475569;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    nav a:hover {
+        color: #2563eb;
+    }
+
+    /* ================= ABOUT CONTENT ================= */
+
+    .container {
+        width: 88%;
+        max-width: 850px;
+        margin: 55px auto;
+
+        background: #ffffff;
+
+        padding: 35px;
+
+        border-radius: 22px;
+
+        border: 1px solid #dbeafe;
+
+        box-shadow: 0 10px 30px rgba(37, 99, 235, 0.08);
+    }
+
+    .title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .title h1 {
+        color: #1d4ed8;
+        font-size: 40px;
+        margin-bottom: 12px;
+    }
+
+    .title p {
+        color: #64748b;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .box {
+        margin-top: 20px;
+        padding: 22px;
+
+        background: #eff6ff;
+
+        border: 1px solid #dbeafe;
+
+        border-radius: 15px;
+    }
+
+    .box h2 {
+        color: #1e3a8a;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .box p {
+        color: #64748b;
+        line-height: 1.8;
+        font-size: 15px;
+    }
+
+    /* ================= MOBILE ================= */
+
+    @media (max-width: 900px) {
+
+        header {
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        nav {
+            justify-content: center;
+        }
+    }
+
+    @media (max-width: 600px) {
+
+        .container {
+            width: 94%;
+            margin: 35px auto;
+            padding: 20px;
+        }
+
+        .title h1 {
+            font-size: 32px;
+        }
+
+        nav {
+            gap: 12px;
+        }
+
+        nav a {
+            font-size: 12px;
+        }
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+    <div class="logo">
+
+        <div class="logo-icon">
+            🛡️
+        </div>
+
+        <div>
+            Trust<span>Lens</span> AI
+        </div>
+
+    </div>
+
+    <nav>
+
+        <a href="/">
+            Home
+        </a>
+
+        <a href="/dashboard">
+            Dashboard
+        </a>
+
+        <a href="/about">
+            About
+        </a>
+
+        <a href="/awareness">
+            Scam Awareness
+        </a>
+
+        <a href="/link-check">
+            Fake Link Detection
+        </a>
+
+        <a href="/report">
+            Report Scam
+        </a>
+
+        <a href="/contact">
+            Contact
+        </a>
+
+    </nav>
+
+</header>
+
+<!-- ================= ABOUT CONTENT ================= -->
+
+<div class="container">
+
+    <div class="title">
+
+        <h1>🛡️ About TrustLens AI</h1>
+
+        <p>
+            TrustLens AI is an AI-based scam detection
+            and digital fraud awareness platform.
+        </p>
+
+    </div>
+
+    <div class="box">
+
+        <h2>🤖 What does TrustLens AI do?</h2>
+
+        <p>
+            It analyzes suspicious messages using
+            machine learning and predicts whether
+            the message resembles a scam or a
+            legitimate message.
+        </p>
+
+    </div>
+
+    <div class="box">
+
+        <h2>🎯 Our Goal</h2>
+
+        <p>
+            Our goal is to make people more aware of
+            digital scams and help them recognize
+            suspicious messages before taking action.
+        </p>
+
+    </div>
+
+    <div class="box">
+
+        <h2>🌐 Multilingual Awareness</h2>
+
+        <p>
+            The project is designed with multilingual
+            digital safety awareness in mind, including
+            English, Hindi and Marathi.
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
+
